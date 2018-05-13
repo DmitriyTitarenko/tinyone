@@ -129,6 +129,7 @@ body {
   font-size: 22px;
   color: #010101;
   text-decoration: none;
+
 }
 
 .nav__link:hover {
@@ -180,7 +181,7 @@ body {
 }
 
 .hero__tablet {
-  margin: auto 0 107px 175px;
+  margin: 0 0 107px 175px;
 }
 
 .container--hero {
@@ -225,4 +226,123 @@ body {
   justify-content: center;
   align-items: center;
   display: flex;
+}
+
+.keep {
+  width: 100%;
+  height: 100vh;
+  background: #000;
+  position: relative;
+}
+
+.container--keep .main-title {
+  color: #fcdb00;
+  border-radius: 2px solid transparent;
+}
+
+.keep__sub-title {
+  color: #fff;
+}
+
+.registr-wrap {
+  margin: 0 auto;
+  display: flex;
+  padding: 41px;
+  align-items: center;
+  justify-content: center;
+}
+
+.registr-input {
+  color: #000;
+  height: 50px;
+  width: 580px;
+  overflow: hidden;
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 25px;
+
+
+}
+
+.registr-item {
+  width: 126px;
+  height: 50px;
+  margin: 20px;
+  background: yellow;
+  border: 2px solid #000;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.contacts__social {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.contacts__social-link:not(:first-child) {
+  padding-left: 50px;
+}
+
+/**
+Footer
+**/
+
+/*  */
+
+footer {
+  color: #fff;
+  margin: 185px 0px 185px 0px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  }
+
+address {
+  font-style: normal;
+  width: 183px;
+  height: 83px;
+  
+}
+
+.adress__company-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.company-name {
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.footer__nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer__nav-item {
+  list-style: none;
+  padding-right: 100px;
+  word-wrap: break-word;
+  height: 20px;
+}
+
+.footer__nav {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60px;
+  height: 60px;
+  flex-direction: column;
+  
+  /* display: grid; */
+    /* grid-template-columns: 70px 70px 70px 70px; */
+    /* grid-template-rows: 53px; */
 }
